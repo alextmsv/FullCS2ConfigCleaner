@@ -1,0 +1,27 @@
+# Build output and release artifacts (EXE files belong in GitHub Releases)
+/build*/
+/dist/
+/out/
+/cmake-build-*/
+
+# Private runtime data: never publish configs, account IDs, or logs
+**/cs2_backup/
+*.log
+.env
+.env.*
+
+# IDE and compiler output
+.vs/
+.idea/
+*.user
+*.suo
+*.obj
+*.o
+*.pch
+*.pdb
+*.ilk
+*.lib
+*.a
+*.dll
+*.exe
+*.d
